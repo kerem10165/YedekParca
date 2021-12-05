@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
             println("YedekParcalar Database Okunurken Hata Oldu")
         }
 
-        println()
+
 
         /*n-n database*/
         val eslesmeCsv = InputStreamReader(assets.open("eslesme.csv"))
