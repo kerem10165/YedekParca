@@ -1,0 +1,25 @@
+﻿Marka;Model;Kasa_Tipi;Uretim_Yili
+Audi;A4;Sedan;2005
+Audi;A5;Sedan;2021
+Audi;A3;Hatchback;2009
+Audi;A4;StateWagon;2012
+Mercedes;E180;Sedan;2015
+Mercedes;CLA200;Coupe;2006
+Mercedes;S500;Sedan;2002
+Mercedes;A200;Hatchback;2016
+Mercedes;G500;SUV;2020
+Honda;Civic;Sedan;2019
+Honda;CRV;SUV;2016
+TOGG;S;SUV;2023
+Volkswagen;Passat;Sedan;1998
+Volkswagen;Passat;Sedan;2016
+Volkswagen;Golf;Hatchback;2008
+Volkswagen;Polo;Hatchback;2017
+Renault;Clio;Sedan;2016
+Renault;Fluent;Sedan;2009
+Renault;Megane;Sedan;2009
+Tesla;Model S;Sedan;2016
+Tesla;Model 3;Sedan;2019
+Tesla;Model X;Suv;2021
+Tesla;Model Y;Suv;2021
+Tesla;Cybertruck;Kamyon;2021
