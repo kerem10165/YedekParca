@@ -156,6 +156,7 @@ class KayitEkrani : AppCompatActivity() {
                 var file =  File(dir, "${parcaAdi}_${parcaMarkasi}_${parcaKategorisi}" + ".jpeg")
                 str = file.toString()
                 var fOut = FileOutputStream(file)
+                println(file.toString())
                 bitmap!!.compress(Bitmap.CompressFormat.JPEG, 75, fOut)
                 fOut.flush();
                 fOut.close()
@@ -197,6 +198,7 @@ class KayitEkrani : AppCompatActivity() {
         super.onActivityResult(requestCode, resultCode, data)
         if (resultCode == RESULT_OK && requestCode == pickImage) {
             imageUri = data?.data
+            println(imageUri.toString())
             bitmap = MediaStore.Images.Media.getBitmap(this.contentResolver, imageUri)
         }
     }
