@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YedekParca">
         <activity
+            android:name=".ParcaSil"
+            android:exported="false" />
+        <activity
             android:name=".StokEkran"
             android:exported="false" />
         <activity
@@ -23,7 +26,6 @@
         <activity
             android:name=".AracEkle"
             android:exported="false" />
-
         <activity
             android:name=".ArabalariGoster"
             android:exported="false" />

@@ -120,4 +120,12 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this , StokSorgulama::class.java)
         startActivity(intent)
     }
+
+    fun parcaSil(view: View)
+    {
+        val intent = Intent(this , ParcaSil::class.java)
+        startActivity(intent)
+    }
+
+
 }
