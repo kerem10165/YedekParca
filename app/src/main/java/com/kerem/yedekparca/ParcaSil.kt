@@ -90,10 +90,6 @@ class ParcaSil : AppCompatActivity() {
             database.execSQL("DELETE FROM YedekParcalar WHERE id = ${parca_id}")
             database.execSQL("DELETE FROM Eslesmeler WHERE ID_PARCA = ${parca_id}")
         }
-
-
-
-
     }
 
 }
