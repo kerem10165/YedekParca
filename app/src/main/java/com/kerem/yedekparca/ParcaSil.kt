@@ -89,6 +89,7 @@ class ParcaSil : AppCompatActivity() {
         if(flag == true) {
             database.execSQL("DELETE FROM YedekParcalar WHERE id = ${parca_id}")
             database.execSQL("DELETE FROM Eslesmeler WHERE ID_PARCA = ${parca_id}")
+            Toast.makeText(applicationContext, "Başarıyla Silindi", Toast.LENGTH_LONG).show()
         }
     }
 
