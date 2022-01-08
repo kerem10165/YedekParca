@@ -23,21 +23,21 @@ class ParcaSil : AppCompatActivity() {
 
         if(parca_adi == "" && parca_markasi == "")
         {
-            Toast.makeText(applicationContext, "Parça Adı Ve Parça Markası kısmı boş geçilemez", Toast.LENGTH_LONG).show()
+            Toast.makeText(applicationContext, "Lütfen Parçaadı ve markası giriniz.", Toast.LENGTH_LONG).show()
             finish()
             return
         }
 
         if(parca_adi == "")
         {
-            Toast.makeText(applicationContext, "Parça Adı kısmı boş geçilemez", Toast.LENGTH_LONG).show()
+            Toast.makeText(applicationContext, "Parça adı giriniz!", Toast.LENGTH_LONG).show()
             finish()
             return
         }
 
         if(parca_markasi == "")
         {
-            Toast.makeText(applicationContext, "Parça markası kısmı boş geçilemez", Toast.LENGTH_LONG).show()
+            Toast.makeText(applicationContext, "Parça markası giriniz!", Toast.LENGTH_LONG).show()
             finish()
             return
         }
@@ -62,14 +62,14 @@ class ParcaSil : AppCompatActivity() {
 
         if(flag2 == false)
         {
-            Toast.makeText(applicationContext, "Girdiğiniz parça adı sistemde bulunmamaktadır", Toast.LENGTH_LONG).show()
+            Toast.makeText(applicationContext, "Girdiğiniz parça adı sistemde bulunmamaktadır.", Toast.LENGTH_LONG).show()
             finish()
             return
         }
 
         if(flag3 == false)
         {
-            Toast.makeText(applicationContext, "Girdiğiniz markada parça bulunmamaktadır", Toast.LENGTH_LONG).show()
+            Toast.makeText(applicationContext, "Girdiğiniz marka da parça bulunmamaktadır.", Toast.LENGTH_LONG).show()
             finish()
             return
         }
