@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/kerem/Desktop/mathlib/build",
+  "command": "/usr/bin/c++  -I/home/kerem/Desktop/mathlib/build -I/home/kerem/Desktop/mathlib/MathFunctions -g -o CMakeFiles/Tutorial.dir/tutorial.cxx.o -c /home/kerem/Desktop/mathlib/tutorial.cxx",
+  "file": "/home/kerem/Desktop/mathlib/tutorial.cxx"
+},
+{
+  "directory": "/home/kerem/Desktop/mathlib/build/MathFunctions",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/MathFunctions.dir/mysqrt.cxx.o -c /home/kerem/Desktop/mathlib/MathFunctions/mysqrt.cxx",
+  "file": "/home/kerem/Desktop/mathlib/MathFunctions/mysqrt.cxx"
+}
+]
